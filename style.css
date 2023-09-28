@@ -1,20 +1,44 @@
 body{
-    background-color: slategray;
+    background-color: rgb(30, 33, 48);
+    color: white;
+}
+a:visited, a:link {
+    color: white;
+    background-color: darkslategrey;
 }
 .title {
+    margin: 10px auto;
+    margin-bottom: 50px;
+    height: auto;
+    width: 50%;
+    border:3px solid rgb(70, 109, 135);
     font: serif, sans-serif;
     text-align: center;
     color: azure;
-    background-color: darkslategray;
-    font-size: 50px;   
+    background-color: rgb(55, 88, 110);
+    font-size: 100px;   
+}
+.opt {
+    border: 1px solid blue; 
+    padding: 10px;
+    margin: 30px;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: rgb(46, 53, 84);
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+}
+.optText {
+    font-size: 50px;
+    padding: 10px;
+    margin: 5px auto;
+    width:500px;
+    display: block;
 }
 img {
     height: auto;
-    width: 300px;
-}
-button {
-    color: black;
-    text-align: center;
-    background-color: snow;
-    font-size: 30px;
+    width: 510px;
+    display: block;
+    margin: 0 auto;
 }
